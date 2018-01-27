@@ -6,7 +6,7 @@
 
 <template>
   <div id="toolbar">
-    <i @click="addNote" clsas="glyphicon glyphicon-plus"></i>
+    <i @click="addNote" class="glyphicon glyphicon-plus"></i>
     <i @click="toggleFavorite"
       class="glyphicon glyphicon-star"
       :class="{starred: activeNote.favorite}"></i>
@@ -24,7 +24,7 @@ export default {
     },
     actions: {
       addNote,
-      delteNote,
+      deleteNote,
       toggleFavorite
     }
   }

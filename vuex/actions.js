@@ -7,7 +7,7 @@ export const editNote = ({ dispatch }, e) => {
 }
 
 export const deleteNote = ({ dispatch }) => {
-  dispatch("DELTE_NOTE")
+  dispatch("DELETE_NOTE")
 }
 
 export const updateActiveNote = ({ dispatch }, note) => {

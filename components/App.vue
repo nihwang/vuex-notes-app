@@ -7,10 +7,9 @@
 </template>
 
 <script>
-  import Toolbar from './Toolbar.vue'
-  import NotesList from './NotesList.vue'
-  import Editor from './Editor.vue'
-</script>
+import Toolbar from './Toolbar.vue'
+import NotesList from './NotesList.vue'
+import Editor from './Editor.vue'
 
 export default {
   components: {
@@ -19,3 +18,4 @@ export default {
     Editor
   }
 }
+</script>
